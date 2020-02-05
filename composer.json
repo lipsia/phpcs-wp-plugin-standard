@@ -1,8 +1,13 @@
 {
   "name": "lipsia/phpcs-wp-plugin-standard",
+  "version": "1.1.1",
   "description": "A custom phpcs ruleset for WordPress plugin development.",
   "type": "phpcodesniffer-standard",
+  "homepage": "https://github.com/lipsia/phpcs-wp-plugin-standard",
   "license": "MIT",
+  "keywords": [
+    "phpcs", "wordpress", "wordpress-plugin"
+  ],
   "config": {
     "optimize-autoloader": true,
     "preferred-install": "dist",
@@ -16,6 +21,10 @@
       "email": "info@lipsia.digital"
     }
   ],
+  "support": {
+    "issues": "https://github.com/lipsia/phpcs-wp-plugin-standard/issues",
+    "source": "https://github.com/lipsia/phpcs-wp-plugin-standard"
+  },
   "require": {
     "automattic/phpcs-neutron-standard": "^1.5",
     "php": "^7.3",
