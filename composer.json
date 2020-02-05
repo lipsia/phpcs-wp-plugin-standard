@@ -17,7 +17,7 @@
     }
   ],
   "require": {
-    "php": "^7.3",
+    "php": "^7.3"
   },
   "require-dev": {
     "automattic/phpcs-neutron-standard": "^1.5",
