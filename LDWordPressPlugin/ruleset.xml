@@ -2,6 +2,13 @@
 <ruleset name="LDWordPressPlugin">
     <description>Lipsia Digital's standards for developing WordPress plugins.PSR12, PHP >= 7.3, WP >= 5.3.</description>
 
+    <arg value="sp"/>
+    <arg name="basepath" value="./"/>
+    <arg name="colors"/>
+    <arg name="extensions" value="php"/>
+    <arg name="parallel" value="8"/>
+    <arg name="tab-width" value="4" />
+
     <!-- https://github.com/PHPCompatibility/PHPCompatibility#sniffing-your-code-for-compatibility-with-specific-php-versions -->
     <config name="testVersion" value="7.3-"/>
     <!-- https://github.com/PHPCompatibility/PHPCompatibilityWP -->
