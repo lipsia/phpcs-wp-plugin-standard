@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="Ruleset for Lipsia Digital's WordPress plugin development.">
+<ruleset name="LipsiaDigitalWordPressPlugin">
     <description>PSR12, PHP >= 7.3, WP >= 5.3.</description>
 
     <file>plugin.php</file>
