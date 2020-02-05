@@ -2,6 +2,10 @@
 <ruleset name="LDWordPressPlugin">
     <description>Lipsia Digital's standards for developing WordPress plugins.</description>
 
+    <file>plugin.php</file>
+    <file>src</file>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+
     <arg value="sp"/>
     <arg name="basepath" value="./"/>
     <arg name="colors"/>
