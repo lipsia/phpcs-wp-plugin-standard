@@ -11,8 +11,19 @@ composer require --dev lipsia/phpcs-wp-plugin-standard
 
 ## Usage
 
-In your project's ruleset file, enable this ruleset by setting the `<rule>`.
+In your project's ruleset file, enable this ruleset by setting the `<rule>` tag.
+
+Minimal _phpcs.xml.dist_:
 
 ```xml
-<rule ref="LipsiaDigitalWordPressPlugin"/>
+<?xml version="1.0"?>
+<ruleset>
+    <rule ref="LDWordPressPlugin"/>
+</ruleset>
+```
+
+Or without a file:
+
+```sh
+./vendor/bin/phpcs --standard=LDWordPressPlugin .
 ```
