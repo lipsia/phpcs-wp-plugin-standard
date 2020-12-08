@@ -5,6 +5,7 @@
     <file>plugin.php</file>
     <file>src</file>
     <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/node_modules/*</exclude-pattern>
 
     <arg value="sp"/>
     <arg name="basepath" value="./"/>
@@ -23,6 +24,9 @@
     <rule ref="PSR12"/>
     <rule ref="NeutronStandard">
         <exclude name="NeutronStandard.Whitespace.RequireParenthesisSpacing.Missing"/>
-        <exclude name="NeutronStandard.Functions.LongFunction.LongFunction"/>
+	<exclude name="NeutronStandard.Functions.LongFunction.LongFunction"/>
+	<exclude name="NeutronStandard.Functions.TypeHint.NoArgumentType"/>
+	<exclude name="NeutronStandard.Functions.TypeHint.NoReturnType"/>
     </rule>
 </ruleset>
+
