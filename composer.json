@@ -1,6 +1,6 @@
 {
   "name": "lipsia/phpcs-wp-plugin-standard",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "A custom phpcs ruleset for WordPress plugin development.",
   "type": "phpcodesniffer-standard",
   "homepage": "https://github.com/lipsia/phpcs-wp-plugin-standard",
